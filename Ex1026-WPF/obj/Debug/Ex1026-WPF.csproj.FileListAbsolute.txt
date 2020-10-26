@@ -1,0 +1,15 @@
+C:\WPF\Ex1026-WPF\bin\Debug\Ex1026-WPF.exe.config
+C:\WPF\Ex1026-WPF\bin\Debug\Ex1026-WPF.exe
+C:\WPF\Ex1026-WPF\bin\Debug\Ex1026-WPF.pdb
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026-WPF.csprojAssemblyReference.cache
+C:\WPF\Ex1026-WPF\obj\Debug\MainWindow.g.cs
+C:\WPF\Ex1026-WPF\obj\Debug\App.g.cs
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026-WPF_MarkupCompile.cache
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026-WPF_MarkupCompile.lref
+C:\WPF\Ex1026-WPF\obj\Debug\MainWindow.baml
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026-WPF.g.resources
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026_WPF.Properties.Resources.resources
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026-WPF.csproj.GenerateResource.cache
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026-WPF.csproj.CoreCompileInputs.cache
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026-WPF.exe
+C:\WPF\Ex1026-WPF\obj\Debug\Ex1026-WPF.pdb

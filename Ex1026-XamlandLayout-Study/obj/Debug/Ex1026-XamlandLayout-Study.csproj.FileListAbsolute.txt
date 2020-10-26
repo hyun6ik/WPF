@@ -1,0 +1,15 @@
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026-XamlandLayout-Study.csprojAssemblyReference.cache
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\App.g.cs
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026-XamlandLayout-Study_MarkupCompile.cache
+C:\WPF\Ex1026-XamlandLayout-Study\bin\Debug\Ex1026-XamlandLayout-Study.exe.config
+C:\WPF\Ex1026-XamlandLayout-Study\bin\Debug\Ex1026-XamlandLayout-Study.exe
+C:\WPF\Ex1026-XamlandLayout-Study\bin\Debug\Ex1026-XamlandLayout-Study.pdb
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\MainWindow.g.cs
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026-XamlandLayout-Study_MarkupCompile.lref
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\MainWindow.baml
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026-XamlandLayout-Study.g.resources
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026_XamlandLayout_Study.Properties.Resources.resources
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026-XamlandLayout-Study.csproj.GenerateResource.cache
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026-XamlandLayout-Study.csproj.CoreCompileInputs.cache
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026-XamlandLayout-Study.exe
+C:\WPF\Ex1026-XamlandLayout-Study\obj\Debug\Ex1026-XamlandLayout-Study.pdb

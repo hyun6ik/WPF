@@ -1,0 +1,242 @@
+﻿<Window x:Class="Ex1026_XamlandLayout_Study.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex1026_XamlandLayout_Study"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" VerticalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Margin="3" Grid.Row="0">Top Left</Button>
+            <Button Margin="3" Grid.Row="1">BottomLeft</Button>
+        </Grid>
+        <GridSplitter Grid.Column="1" Width="3" HorizontalAlignment="Center"
+                      VerticalAlignment="Stretch" ShowsPreview="False">
+            
+        </GridSplitter>
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Margin="3">Top Right</Button>
+            <Button Grid.Row="2" Margin="3">Bottom Right</Button>
+            <GridSplitter Grid.Row="1" Height="3" VerticalAlignment="Center"
+                          HorizontalAlignment="Stretch" ShowsPreview="False">
+                
+            </GridSplitter>
+        </Grid>
+        </Grid>
+    
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="100"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition MinWidth="50"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Row="0" Grid.Column="0" Margin="3">Left</Button>
+        <Button Grid.Row="0" Grid.Column="2" Margin="3">Right</Button>
+        <Button Grid.Row="1" Grid.Column="0" Margin="3">Left</Button>
+        <Button Grid.Row="1" Grid.Column="2" Margin="3">Right</Button>
+
+        <GridSplitter Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+                      Width="3" VerticalAlignment="Stretch" HorizontalAlignment="Center"
+                      ShowsPreview="False"></GridSplitter>
+    </Grid>-->
+    
+    <!--<Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Row="0" Grid.Column="0" Margin="10" Grid.ColumnSpan="3">
+            This is a Test
+        </TextBox>
+        <Button Margin="10,10,2,10" Padding="3" Grid.Row="1" Grid.Column="1">
+            OK
+        </Button>
+        <Button Margin="2,10,10,10" Padding="3" Grid.Row="1" Grid.Column="2">
+            Cancel
+        </Button>
+    </Grid>-->
+    
+    <!--<Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Margin="10" Grid.Row="0">
+            This is a test
+        </TextBox>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button Margin="10,10,2,10" Padding="3">OK</Button>
+            <Button Margin="2,10,10,10" Padding="3">Cancel</Button>
+        </StackPanel>
+    </Grid>-->
+    
+    <!--<Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0">Top Left</Button>
+        <Button Grid.Row="0" Grid.Column="1">Top Middle</Button>
+        <Button Grid.Row="1" Grid.Column="2">Bottom Right</Button>
+        <Button Grid.Row="1" Grid.Column="1">Bottom Middle</Button>
+    </Grid>-->
+    
+    <!--<DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Top">A Stretched Top Button</Button>
+        <Button DockPanel.Dock="Top" HorizontalAlignment="Center">A Centered Top Button
+        </Button>
+        <Button DockPanel.Dock="Top" HorizontalAlignment="Left">
+            A Left-Aligned Top Button
+        </Button>
+        <Button DockPanel.Dock="Bottom">Bottom Button</Button>
+        <Button DockPanel.Dock="Left">Left Button</Button>
+        <Button DockPanel.Dock="Right">Right Button</Button>
+        <Button>Remaining Space</Button>
+    </DockPanel>-->
+    
+    <!--<DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Left">Left Button</Button>
+        <Button DockPanel.Dock="Top">Top Button</Button>
+        <Button DockPanel.Dock="Right">Right Button</Button>
+        <Button DockPanel.Dock="Bottom">Bottom Button</Button>
+        <Button>Remaining Space</Button>
+    </DockPanel>-->
+    
+    <!--<DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Top">Top Button</Button>
+        <Button DockPanel.Dock="Bottom">Bottom Button</Button>
+        <Button DockPanel.Dock="Left">Left Button</Button>
+        <Button DockPanel.Dock="Right">Right Button</Button>
+        <Button>Remaining Space</Button>
+    </DockPanel>-->
+    
+    <!--<WrapPanel Margin="3">
+        <Button VerticalAlignment="Top">Top Button</Button>
+        <Button MinHeight="60">Tall Button</Button>
+        <Button VerticalAlignment="Bottom">Bottom Button</Button>
+        <Button>Stretch Button</Button>
+        <Button VerticalAlignment="Center">Centered Button</Button>
+    </WrapPanel>-->
+    
+    <!--<Border Margin="3" Padding="5" Background="DarkBlue"
+            BorderBrush="Yellow" BorderThickness="3" CornerRadius="3"
+            VerticalAlignment="Top">
+        <WrapPanel Orientation="Vertical">
+            <Button Margin="3">Button1</Button>
+            <Button Margin="3">Button2</Button>
+            <Button Margin="3">Button3</Button>
+            <Button Margin="3">Button4</Button>
+        </WrapPanel>
+    </Border>-->
+    
+    <!--<Border Margin="3" Padding="5" Background="Ivory"
+            BorderBrush="SteelBlue" BorderThickness="10,5,10,5" CornerRadius="3"
+            VerticalAlignment="Top">
+        <StackPanel>
+            <Button Margin="3">One</Button>
+            <Button Margin="3">Two</Button>
+            <Button Margin="3">Three</Button>
+        </StackPanel>
+    </Border>-->
+    <!--<WrapPanel>
+        <Label Margin="3" HorizontalAlignment="Center">
+            A Button Stack
+        </Label>
+        <Button Margin="3" MaxWidth="200" MinWidth="100" MinHeight="100">Button1</Button>
+        <Button Margin="3" MaxWidth="200" MinWidth="100" MinHeight="100">Button2</Button>
+        <Button Margin="3" MaxWidth="200" MinWidth="100" MinHeight="100">Button3</Button>
+        <Button Margin="3" MaxWidth="200" MinWidth="100" MinHeight="100">Button4</Button>
+    </WrapPanel>-->
+    <!--<StackPanel Orientation="Horizontal">
+        <Label Margin="3" HorizontalAlignment="Center">
+            A Button Stack
+        </Label>
+        <Button Margin="3" MaxWidth="200" MinWidth="100" MinHeight="100">Button1</Button>
+        <Button Margin="3" MaxWidth="200" MinWidth="100" MinHeight="100">Button2</Button>
+        <Button Margin="3" MaxWidth="200" MinWidth="100" MinHeight="100">Button3</Button>
+        <Button Margin="3" MaxWidth="200" MinWidth="100" MinHeight="100">Button4</Button>
+    </StackPanel>-->
+    
+    <!--<StackPanel>
+        <Label HorizontalAlignment="Center">A Button Stack</Label>
+        
+        <Button HorizontalAlignment="Right">Button 2</Button>
+     
+        <Button>Button 3</Button>
+        <Button>Button 4</Button>
+        <Button VerticalAlignment="Bottom">Button 1</Button>
+    </StackPanel>-->
+    
+    <!--<StackPanel>
+        <Label>A Button Stack</Label>
+        <Button MinHeight="100" MinWidth="100">Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+        <Button>Button 4</Button>
+    </StackPanel>-->
+    
+    <!--<Grid Name="grid1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto "></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Name="txtQusetion" Grid.Row="0" VerticalAlignment="Stretch" 
+                 HorizontalAlignment="Stretch" Margin="10,10,13,10"
+                 TextWrapping="Wrap" FontFamily="Verdana" FontSize="24">
+            [Please Qusetion Here.]
+        </TextBox>
+        <Button Name ="cmdAnswer" Grid.Row="1" VerticalAlignment="Top"
+                HorizontalAlignment="Left" Margin="10,0,0,20" Width="127"
+                Height="23" Click="cmdAnswer_Click">
+            Ask the Eight Ball
+        </Button>
+        <TextBox Name="txtAnswer" VerticalAlignment="Stretch" 
+                 HorizontalAlignment="Stretch" Margin="10,10,13,10" TextWrapping="Wrap"
+                 IsReadOnly="True" FontFamily="Verdana" FontSize="24" Foreground="Green"
+                 Grid.Row="2">
+            
+        </TextBox>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Offset="0.00" Color="GhostWhite" />
+                    <GradientStop Offset="0.25" Color="AliceBlue" />
+                    <GradientStop Offset="0.50"  Color="Bisque" />
+                    <GradientStop Offset="1.00" Color="DarkSeaGreen" />
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </Grid.Background>
+    </Grid>-->
+</Window>
